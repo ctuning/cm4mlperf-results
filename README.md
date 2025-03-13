@@ -18,21 +18,21 @@ Install [MLCommons CMX framework](https://access.cknowledge.org/playground/?acti
 
 ### MLPerf inference benchmark results
 
-Follow this [README](https://github.com/mlcommons/ck/blob/master/cmx4mlops/cmx4mlops/repo/script/import-mlperf-inference-to-experiment/README-extra.md) 
+Follow this [README](https://github.com/mlcommons/ck/blob/master/cm4mlops/cm4mlops/repo/script/import-mlperf-inference-to-experiment/README-extra.md) 
 from the related CM automations script.
 
 You can see aggregated results [here](https://access.cknowledge.org/playground/?action=experiments&tags=mlperf-inference,all).
 
 ### TinyMLPerf benchmark results
 
-Follow this [README](https://github.com/mlcommons/ck/blob/master/cmx4mlops/cmx4mlops/repo/script/import-mlperf-tiny-to-experiment/README-extra.md) 
+Follow this [README](https://github.com/mlcommons/ck/blob/master/cm4mlops/cm4mlops/repo/script/import-mlperf-tiny-to-experiment/README-extra.md) 
 from the related CM automations script.
 
 You can see aggregated results [here](https://access.cknowledge.org/playground/?action=experiments&tags=mlperf-tiny,all).
 
 ### MLPerf training benchmark results
 
-Follow this [README](https://github.com/mlcommons/ck/blob/master/cmx4mlops/cmx4mlops/repo/script/import-mlperf-training-to-experiment/README-extra.md) 
+Follow this [README](https://github.com/mlcommons/ck/blob/master/cm4mlops/cm4mlops/repo/script/import-mlperf-training-to-experiment/README-extra.md) 
 from the related CM automations script.
 
 You can see aggregated results [here](https://access.cknowledge.org/playground/?action=experiments&tags=mlperf-training,all).
@@ -51,7 +51,7 @@ Install [MLCommons CMX framework](https://access.cknowledge.org/playground/?acti
 
 Pull the CMX repositories with automation recipes and MLPerf results:
 ```bash
-cmx pull repo mlcommons@ck --dir=cmx4mlops/cmx4mlops
+cmx pull repo mlcommons@ck --dir=cm4mlops/cm4mlops
 cmx pull repo mlcommons@cm4mlperf-results
 ```
 
